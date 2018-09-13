@@ -7,25 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C34A719D2149DCC20060FF68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C34A719C2149DCC20060FF68 /* AppDelegate.m */; };
-		C34A71A02149DCC20060FF68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C34A719F2149DCC20060FF68 /* ViewController.m */; };
+		C32E8FCE214AD8AD00F11FE2 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = C34A719B2149DCC20060FF68 /* AppDelegate.h */; };
+		C32E8FCF214AD8AD00F11FE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C34A719C2149DCC20060FF68 /* AppDelegate.m */; };
+		C32E8FD0214AD8AD00F11FE2 /* CRAMarsRover.h in Sources */ = {isa = PBXBuildFile; fileRef = C34A71CA2149E00E0060FF68 /* CRAMarsRover.h */; };
+		C32E8FD1214AD8AD00F11FE2 /* CRAMarsRover.m in Sources */ = {isa = PBXBuildFile; fileRef = C34A71CB2149E00E0060FF68 /* CRAMarsRover.m */; };
+		C32E8FD2214AD8AD00F11FE2 /* CRAMarsPhoto.h in Sources */ = {isa = PBXBuildFile; fileRef = C34A71CD2149E0200060FF68 /* CRAMarsPhoto.h */; };
+		C32E8FD3214AD8AD00F11FE2 /* CRAMarsPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = C34A71CE2149E0200060FF68 /* CRAMarsPhoto.m */; };
+		C32E8FD4214AD8AD00F11FE2 /* CRASolDescription.h in Sources */ = {isa = PBXBuildFile; fileRef = C34A71D02149E0310060FF68 /* CRASolDescription.h */; };
+		C32E8FD5214AD8AD00F11FE2 /* CRASolDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = C34A71D12149E0310060FF68 /* CRASolDescription.m */; };
+		C32E8FD6214AD8AD00F11FE2 /* CRAPhotoCache.h in Sources */ = {isa = PBXBuildFile; fileRef = C34A71C72149DFFF0060FF68 /* CRAPhotoCache.h */; };
+		C32E8FD7214AD8AD00F11FE2 /* CRAPhotoCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C34A71C82149DFFF0060FF68 /* CRAPhotoCache.m */; };
+		C32E8FD8214AD8AD00F11FE2 /* CRARoversTableViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = C34A71BE2149DF960060FF68 /* CRARoversTableViewController.h */; };
+		C32E8FD9214AD8AD00F11FE2 /* CRARoversTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C34A71BF2149DF960060FF68 /* CRARoversTableViewController.m */; };
+		C32E8FDA214AD8AD00F11FE2 /* CRASolsTableViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = C34A71C12149DFB30060FF68 /* CRASolsTableViewController.h */; };
+		C32E8FDB214AD8AD00F11FE2 /* CRASolsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C34A71C22149DFB30060FF68 /* CRASolsTableViewController.m */; };
+		C32E8FDC214AD8AD00F11FE2 /* CRAPhotosCollectionsViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = C34A71C42149DFE50060FF68 /* CRAPhotosCollectionsViewController.h */; };
+		C32E8FDD214AD8AD00F11FE2 /* CRAPhotosCollectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C34A71C52149DFE50060FF68 /* CRAPhotosCollectionsViewController.m */; };
+		C32E8FDE214AD8AD00F11FE2 /* CRAMarsRoverClient.h in Sources */ = {isa = PBXBuildFile; fileRef = C34A71BB2149DF760060FF68 /* CRAMarsRoverClient.h */; };
+		C32E8FDF214AD8AD00F11FE2 /* CRAMarsRoverClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C34A71BC2149DF760060FF68 /* CRAMarsRoverClient.m */; };
+		C32E8FE0214AD8AD00F11FE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C34A71AA2149DCC60060FF68 /* main.m */; };
 		C34A71A32149DCC20060FF68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C34A71A12149DCC20060FF68 /* Main.storyboard */; };
 		C34A71A52149DCC60060FF68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34A71A42149DCC60060FF68 /* Assets.xcassets */; };
 		C34A71A82149DCC60060FF68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C34A71A62149DCC60060FF68 /* LaunchScreen.storyboard */; };
-		C34A71AB2149DCC60060FF68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C34A71AA2149DCC60060FF68 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C34A71982149DCC20060FF68 /* myRover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myRover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34A719B2149DCC20060FF68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C34A719C2149DCC20060FF68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C34A719E2149DCC20060FF68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C34A719F2149DCC20060FF68 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C34A71A22149DCC20060FF68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C34A71A42149DCC60060FF68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C34A71A72149DCC60060FF68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C34A71A92149DCC60060FF68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C34A71AA2149DCC60060FF68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C34A71BA2149DEE10060FF68 /* APIKeys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIKeys.plist; sourceTree = "<group>"; };
+		C34A71BB2149DF760060FF68 /* CRAMarsRoverClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRAMarsRoverClient.h; sourceTree = "<group>"; };
+		C34A71BC2149DF760060FF68 /* CRAMarsRoverClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRAMarsRoverClient.m; sourceTree = "<group>"; };
+		C34A71BE2149DF960060FF68 /* CRARoversTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRARoversTableViewController.h; sourceTree = "<group>"; };
+		C34A71BF2149DF960060FF68 /* CRARoversTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRARoversTableViewController.m; sourceTree = "<group>"; };
+		C34A71C12149DFB30060FF68 /* CRASolsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRASolsTableViewController.h; sourceTree = "<group>"; };
+		C34A71C22149DFB30060FF68 /* CRASolsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRASolsTableViewController.m; sourceTree = "<group>"; };
+		C34A71C42149DFE50060FF68 /* CRAPhotosCollectionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRAPhotosCollectionsViewController.h; sourceTree = "<group>"; };
+		C34A71C52149DFE50060FF68 /* CRAPhotosCollectionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRAPhotosCollectionsViewController.m; sourceTree = "<group>"; };
+		C34A71C72149DFFF0060FF68 /* CRAPhotoCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRAPhotoCache.h; sourceTree = "<group>"; };
+		C34A71C82149DFFF0060FF68 /* CRAPhotoCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRAPhotoCache.m; sourceTree = "<group>"; };
+		C34A71CA2149E00E0060FF68 /* CRAMarsRover.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRAMarsRover.h; sourceTree = "<group>"; };
+		C34A71CB2149E00E0060FF68 /* CRAMarsRover.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRAMarsRover.m; sourceTree = "<group>"; };
+		C34A71CD2149E0200060FF68 /* CRAMarsPhoto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRAMarsPhoto.h; sourceTree = "<group>"; };
+		C34A71CE2149E0200060FF68 /* CRAMarsPhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRAMarsPhoto.m; sourceTree = "<group>"; };
+		C34A71D02149E0310060FF68 /* CRASolDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRASolDescription.h; sourceTree = "<group>"; };
+		C34A71D12149E0310060FF68 /* CRASolDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRASolDescription.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +89,104 @@
 		C34A719A2149DCC20060FF68 /* myRover */ = {
 			isa = PBXGroup;
 			children = (
-				C34A719B2149DCC20060FF68 /* AppDelegate.h */,
-				C34A719C2149DCC20060FF68 /* AppDelegate.m */,
-				C34A719E2149DCC20060FF68 /* ViewController.h */,
-				C34A719F2149DCC20060FF68 /* ViewController.m */,
-				C34A71A12149DCC20060FF68 /* Main.storyboard */,
-				C34A71A42149DCC60060FF68 /* Assets.xcassets */,
-				C34A71A62149DCC60060FF68 /* LaunchScreen.storyboard */,
-				C34A71A92149DCC60060FF68 /* Info.plist */,
-				C34A71AA2149DCC60060FF68 /* main.m */,
+				C34A71B82149DE070060FF68 /* Sources */,
+				C34A71B72149DE060060FF68 /* Model */,
+				C34A71B62149DE010060FF68 /* Model Controllers */,
+				C34A71B52149DDE20060FF68 /* View Controllers */,
+				C34A71B42149DDE10060FF68 /* Views */,
+				C34A71B32149DDE00060FF68 /* Networking */,
+				C34A71B22149DDDD0060FF68 /* Supporting Files */,
+				C34A71B12149DD380060FF68 /* Resources */,
 			);
 			path = myRover;
+			sourceTree = "<group>";
+		};
+		C34A71B12149DD380060FF68 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C34A71B92149DE7E0060FF68 /* StoryBoards */,
+				C34A71A42149DCC60060FF68 /* Assets.xcassets */,
+				C34A71A92149DCC60060FF68 /* Info.plist */,
+				C34A71BA2149DEE10060FF68 /* APIKeys.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C34A71B22149DDDD0060FF68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C34A71AA2149DCC60060FF68 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C34A71B32149DDE00060FF68 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C34A71BB2149DF760060FF68 /* CRAMarsRoverClient.h */,
+				C34A71BC2149DF760060FF68 /* CRAMarsRoverClient.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		C34A71B42149DDE10060FF68 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C34A71BE2149DF960060FF68 /* CRARoversTableViewController.h */,
+				C34A71BF2149DF960060FF68 /* CRARoversTableViewController.m */,
+				C34A71C12149DFB30060FF68 /* CRASolsTableViewController.h */,
+				C34A71C22149DFB30060FF68 /* CRASolsTableViewController.m */,
+				C34A71C42149DFE50060FF68 /* CRAPhotosCollectionsViewController.h */,
+				C34A71C52149DFE50060FF68 /* CRAPhotosCollectionsViewController.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C34A71B52149DDE20060FF68 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C34A71C72149DFFF0060FF68 /* CRAPhotoCache.h */,
+				C34A71C82149DFFF0060FF68 /* CRAPhotoCache.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C34A71B62149DE010060FF68 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C34A71CA2149E00E0060FF68 /* CRAMarsRover.h */,
+				C34A71CB2149E00E0060FF68 /* CRAMarsRover.m */,
+				C34A71CD2149E0200060FF68 /* CRAMarsPhoto.h */,
+				C34A71CE2149E0200060FF68 /* CRAMarsPhoto.m */,
+				C34A71D02149E0310060FF68 /* CRASolDescription.h */,
+				C34A71D12149E0310060FF68 /* CRASolDescription.m */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		C34A71B72149DE060060FF68 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C34A71B82149DE070060FF68 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C34A719B2149DCC20060FF68 /* AppDelegate.h */,
+				C34A719C2149DCC20060FF68 /* AppDelegate.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C34A71B92149DE7E0060FF68 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				C34A71A12149DCC20060FF68 /* Main.storyboard */,
+				C34A71A62149DCC60060FF68 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +259,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C34A71A02149DCC20060FF68 /* ViewController.m in Sources */,
-				C34A71AB2149DCC60060FF68 /* main.m in Sources */,
-				C34A719D2149DCC20060FF68 /* AppDelegate.m in Sources */,
+				C32E8FCE214AD8AD00F11FE2 /* AppDelegate.h in Sources */,
+				C32E8FCF214AD8AD00F11FE2 /* AppDelegate.m in Sources */,
+				C32E8FD0214AD8AD00F11FE2 /* CRAMarsRover.h in Sources */,
+				C32E8FD1214AD8AD00F11FE2 /* CRAMarsRover.m in Sources */,
+				C32E8FD2214AD8AD00F11FE2 /* CRAMarsPhoto.h in Sources */,
+				C32E8FD3214AD8AD00F11FE2 /* CRAMarsPhoto.m in Sources */,
+				C32E8FD4214AD8AD00F11FE2 /* CRASolDescription.h in Sources */,
+				C32E8FD5214AD8AD00F11FE2 /* CRASolDescription.m in Sources */,
+				C32E8FD6214AD8AD00F11FE2 /* CRAPhotoCache.h in Sources */,
+				C32E8FD7214AD8AD00F11FE2 /* CRAPhotoCache.m in Sources */,
+				C32E8FD8214AD8AD00F11FE2 /* CRARoversTableViewController.h in Sources */,
+				C32E8FD9214AD8AD00F11FE2 /* CRARoversTableViewController.m in Sources */,
+				C32E8FDA214AD8AD00F11FE2 /* CRASolsTableViewController.h in Sources */,
+				C32E8FDB214AD8AD00F11FE2 /* CRASolsTableViewController.m in Sources */,
+				C32E8FDC214AD8AD00F11FE2 /* CRAPhotosCollectionsViewController.h in Sources */,
+				C32E8FDD214AD8AD00F11FE2 /* CRAPhotosCollectionsViewController.m in Sources */,
+				C32E8FDE214AD8AD00F11FE2 /* CRAMarsRoverClient.h in Sources */,
+				C32E8FDF214AD8AD00F11FE2 /* CRAMarsRoverClient.m in Sources */,
+				C32E8FE0214AD8AD00F11FE2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +419,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 23QW9JU9DK;
-				INFOPLIST_FILE = myRover/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/myRover/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +436,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 23QW9JU9DK;
-				INFOPLIST_FILE = myRover/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/myRover/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

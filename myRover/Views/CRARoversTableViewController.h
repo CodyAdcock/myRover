@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CRARoversTableViewController.h
 //  myRover
 //
 //  Created by Cody on 9/12/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CRARoversTableViewController : UITableViewController
 
 @end
-
